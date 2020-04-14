@@ -11,6 +11,10 @@ const list = [
     label: 'Notification',
     path: 'Notification'
   },
+  {
+    label: 'Fingerprint',
+    path: 'Fingerprint'
+  },
 ]
 export default function Main() {
   const navigation = useNavigation();
