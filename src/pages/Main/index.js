@@ -6,7 +6,11 @@ const list = [
   {
     label: 'Camera',
     path: 'Camera'
-  }
+  },
+  {
+    label: 'Notification',
+    path: 'Notification'
+  },
 ]
 export default function Main() {
   const navigation = useNavigation();

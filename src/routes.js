@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import Main from './pages/Main';
 import Camera from './pages/Camera';
+import Notification from './pages/Notification';
 
 const Stack = createStackNavigator();
 
@@ -13,6 +14,7 @@ export default function Routes() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name='Main' component={Main}/>
+        <Stack.Screen name='Notification' component={Notification}/>
         <Stack.Screen name='Camera' component={Camera} options={{
           headerTransparent: true,
           headerTintColor: '#fff',
@@ -20,6 +22,7 @@ export default function Routes() {
             backgroundColor: 'rgba(0,0,0,0.3)'
           }
         }}/>
+        
       </Stack.Navigator>
     </NavigationContainer>
   )
